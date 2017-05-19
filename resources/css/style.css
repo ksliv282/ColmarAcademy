@@ -1,0 +1,69 @@
+html {
+  font-size: 16px;
+}
+body {
+  font-family: "Helvetica";
+  background-color: lightgray;
+}
+.container {
+  margin: auto;
+}
+.header {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  font-family: "Helvetica";
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+#companytitle {
+  display: flex;
+  font-family:
+}
+#colmar {
+  color: darkgray;
+  font-weight: bold;
+}
+#academy {
+  color: lightgray;
+}
+.header .container {
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  z-index: 100;
+  justify-content: space-between;
+  height: 4rem;
+
+}
+nav {
+  display: block;
+}
+.topnav {
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+ul li {
+  padding: 0 1rem;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Jumbotron */
+
+
+/* Information Section */
+.infolist {
+  width: 423px;
+}
+.infoimage {
+  width: 35%;
+}
