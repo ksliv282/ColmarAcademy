@@ -50,12 +50,17 @@ h5 {
   display: inline-flex;
   align-items: center;
 }
+.desktop-logo img {
+  height: 3.5rem;
+}
 #companytitle {
   display: flex;
-
+  padding-left: 0.25rem;
+  font-size: 1.75rem;
+  letter-spacing: 0.03em;
 }
 #colmar {
-  color: darkgray;
+  color: #565656;
   font-weight:700;
 }
 #academy {
@@ -93,7 +98,6 @@ a {
   .topnav {
     display: none;
   }
-
   .sandwich {
     display: block;
   }
@@ -124,16 +128,12 @@ a {
     padding: 0 1.5rem;
     height: 2.75rem;
   }
-
 }
-
 /* Jumbotron */
 .maincontent {
   margin: 0;
   padding: 0;
   width: 100%;
-  /*position: relative;*/
-
 }
 .jumbotron {
   display: flex;
@@ -142,8 +142,6 @@ a {
   margin: auto;
   justify-content: space-between;
   padding-top: 6rem;
-
-
 }
 .jumbotron .container {
   align-items: center;
@@ -156,7 +154,6 @@ a {
 .mainimage img {
   width: 100%;
 }
-
 .jumbotron .headline {
   display: block;
   width: 40%;
@@ -168,7 +165,6 @@ a {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
-
 .button a {
   color: white;
   display: block;
@@ -221,7 +217,6 @@ a {
   display: flex;
   margin: 0;
   width: 100%;
-
 }
 .information .container {
   background-color: white;
@@ -235,7 +230,6 @@ a {
   width: 100%;
   height: auto;
 }
-
 .quote h2 {
   padding-top: 2rem;
   padding-bottom: 1.5rem;
@@ -249,7 +243,6 @@ a {
   border-left: 1px solid lightgray;
   display: flex;
   flex-direction: column;
-
 }
 .info {
   max-width: 100%;
@@ -259,7 +252,6 @@ a {
   padding: 1rem;
   border-bottom: 1px solid lightgray;
   transition: background-color 750ms;
-
 }
 .info.orientation {
   padding-top: 2rem;
@@ -271,7 +263,6 @@ a {
   width: 35%;
   min-width: 5rem;
   height: auto;
-
 }
 .info .infoimage img {
   width: 100%;
@@ -280,14 +271,12 @@ a {
 .infotext {
   margin-left: 1.5rem;
   justify-content: center;
-
 }
 .infotext h3 {
   padding-bottom: 1rem;
   font-size: 1.5rem;
 }
 .infotext h4 {
-
   font-size: 1rem;
 }
 .infotext a {
@@ -309,7 +298,7 @@ a {
     display: none;
   }
 }
-
+/* mobile formatting for informational section */
 @media only screen and (max-width: 480px) {
   .quote-banner {
     display: none;
@@ -322,7 +311,6 @@ a {
   }
   .information .container {
     width: 100%;
-
   }
   .infolist {
     display: flex;
@@ -352,10 +340,9 @@ a {
     padding: 1rem;
   }
 }
- /* Class List */
+ /* Class List Formatting and Styling*/
  .courselist {
    display: block;
-
  }
 .courselist .title {
   text-align: center;
@@ -396,7 +383,7 @@ a {
   line-height: 1.4;
 }
 
-/* Responsive Design for Mobile */
+/* Responsive Design for Mobile for Course List */
 
 @media only screen and (max-width: 480px) {
   .courselist .title {
@@ -410,14 +397,12 @@ a {
     border-top: 1px solid lightgray;
     border-bottom: 1px solid lightgray;
   }
-
   .courses-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     max-width: 100%;
   }
-
   .course {
   display:flex;
   flex-direction: column;
@@ -425,7 +410,6 @@ a {
   height: auto;
   margin: 0.25rem;
   }
-
   .course img{
     display: none;
   }
@@ -434,26 +418,22 @@ a {
   letter-spacing: 0.5px;
   padding: 1rem 1rem 2rem 1rem;
   }
-
   .course-text h3 {
     letter-spacing: .5px;
     text-align: left;
     padding-top: 1rem;
     padding-bottom:.25em;
   }
-
   .course-description {
     display: none;
   }
 }
-
 /* Theses Section Styling */
 .theses {
   width: 100%;
   display: block;
   margin: auto;
   background-color: white;
-
 }
 .theses .title {
   text-align: center;
@@ -484,8 +464,6 @@ video {
   width: 26.4375rem;
   display: flex;
   flex-direction: column;
-
-
 }
 .thesis {
   max-width: 100%;
@@ -493,17 +471,14 @@ video {
   display: flex;
   align-items: center;
   padding: 1rem;
-
 }
 .thesis:hover {
   background-color: lightgray;
 }
-
 .thesis-image img {
   height: 8.5rem;
   width: auto;
   min-width: 5rem;
-
 }
 .thesis-text {
   margin-left: 1.5rem;
@@ -516,21 +491,17 @@ video {
   .thesis-list {
     display: none;
   }
-
   .video-thesis {
    width: 100%;
    padding-left: 0;
    padding-right: 0;
   }
-
   .video-thesis h3 {
     display: none;
   }
-
   .video-thesis h4{
     display: none;
   }
-
 }
 /* Footer */
 footer {
@@ -542,14 +513,12 @@ footer {
   padding-left: 1.5rem;
   color: #696969;
 }
-
 footer ul li {
   display: inline;
   padding: 1rem 0;
   padding-right: 1.5rem;
   color: #696969;
 }
-
 @media only screen and (max-width: 480px) {
   footer {
     border-top: none;
@@ -557,7 +526,6 @@ footer ul li {
     padding-bottom: 1rem;
     margin-left: 0.5rem;
   }
-
   footer ul li {
     display: none;
   }
