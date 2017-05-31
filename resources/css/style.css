@@ -73,10 +73,12 @@ h5 {
 nav {
   display: block;
   padding: 1.5rem;
+  justify-content: flex-end;
 }
 .topnav {
   align-items: center;
   display: flex;
+  justify-content: flex-end;
 }
 nav ul {
   display: flex;
@@ -242,6 +244,10 @@ a {
   line-height: 2rem;
   padding-bottom: 2.5rem;
 }
+.quote h5 {
+  font-size: 1rem;
+  font-weight: bold;
+}
 .infolist {
   width: 26.4375rem;
   border-left: 1px solid lightgray;
@@ -283,6 +289,7 @@ a {
 .infotext h4 {
   font-size: 1rem;
 }
+
 .infotext a {
   font-size: 1rem;
   font-weight: 400;
@@ -304,6 +311,7 @@ a {
 }
 /* mobile formatting for informational section */
 @media only screen and (max-width: 480px) {
+
   .quote-banner {
     display: none;
   }
@@ -315,8 +323,10 @@ a {
   }
   .information .container {
     width: 100%;
+    margin: 0;
   }
   .infolist {
+    max-width: 480px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -336,9 +346,15 @@ a {
     display: none;
   }
   .infoimage-mobile {
-    max-width: 100%;
+    display: block;
+    max-width: 400px;
     flex-shrink: 2;
     padding: 1rem;
+  }
+  .infoimage-mobile img {
+    display: block;
+    max-width: 100%;
+    height: auto;
   }
   .infotext {
     padding: 1rem;
@@ -493,7 +509,7 @@ video {
 .thesis-text h3 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 .thesis-text h4 {
   font-size: 1.25rem;
