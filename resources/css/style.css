@@ -37,9 +37,11 @@ h5 {
   padding: 1.5rem;
   margin: 0;
   z-index: 100;
-
   height: 4rem;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .header .container {
   display: flex;
@@ -51,13 +53,14 @@ h5 {
   align-items: center;
 }
 .desktop-logo img {
-  height: 3.5rem;
+  height: 3rem;
 }
 #companytitle {
   display: flex;
   padding-left: 0.25rem;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   letter-spacing: 0.03em;
+  justify-content: flex-start;
 }
 #colmar {
   color: #565656;
@@ -73,6 +76,8 @@ nav {
 }
 .topnav {
   align-items: center;
+  display: flex;
+  justify-content: flex-end;
 }
 nav ul {
   display: flex;
@@ -378,6 +383,7 @@ a {
 .course-text h4 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  font-size: 1.1rem;
 }
 .course-text p {
   line-height: 1.4;
@@ -423,6 +429,7 @@ a {
     text-align: left;
     padding-top: 1rem;
     padding-bottom:.25em;
+    font-size: 1.5rem;
   }
   .course-description {
     display: none;
@@ -486,6 +493,10 @@ video {
 .thesis-text h3 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  font-size: 2rem;
+}
+.thesis-text h4 {
+  font-size: 1.25rem;
 }
 @media only screen and (max-width: 480px) {
   .thesis-list {
