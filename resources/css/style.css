@@ -77,7 +77,6 @@ nav {
 .topnav {
   align-items: center;
   display: flex;
-  justify-content: flex-end;
 }
 nav ul {
   display: flex;
@@ -348,7 +347,7 @@ a {
  /* Class List Formatting and Styling*/
  .courselist {
    display: block;
-   padding-left: 1.5rem;
+   padding-left: 1rem;
  }
 .courselist .title {
   text-align: center;
